@@ -1,0 +1,6 @@
+framework module Pods_TIXNGODemo {
+  umbrella header "Pods-TIXNGODemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

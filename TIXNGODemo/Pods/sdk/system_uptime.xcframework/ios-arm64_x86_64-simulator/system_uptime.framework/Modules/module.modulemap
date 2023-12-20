@@ -1,0 +1,11 @@
+framework module system_uptime {
+  umbrella header "system_uptime-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module system_uptime.Swift {
+  header "system_uptime-Swift.h"
+  requires objc
+}

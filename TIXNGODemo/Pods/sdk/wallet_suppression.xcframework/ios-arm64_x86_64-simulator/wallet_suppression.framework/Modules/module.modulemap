@@ -1,0 +1,11 @@
+framework module wallet_suppression {
+  umbrella header "wallet_suppression-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module wallet_suppression.Swift {
+  header "wallet_suppression-Swift.h"
+  requires objc
+}

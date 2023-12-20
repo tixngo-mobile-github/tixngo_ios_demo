@@ -1,0 +1,22 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 effective-4.2 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios12.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -module-name contacts_service
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Contacts
+import ContactsUI
+import Flutter
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import contacts_service
+@objc @_hasMissingDesignatedInitializers @available(iOS 9.0, *)
+public class SwiftContactsServicePlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin, ContactsUI.CNContactViewControllerDelegate, ContactsUI.CNContactPickerDelegate {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc public func contactViewController(_ viewController: ContactsUI.CNContactViewController, didCompleteWith contact: Contacts.CNContact?)
+  @objc public func contactPicker(_ picker: ContactsUI.CNContactPickerViewController, didSelect contact: Contacts.CNContact)
+  @objc public func contactPickerDidCancel(_ picker: ContactsUI.CNContactPickerViewController)
+  @objc deinit
+}

@@ -1,0 +1,57 @@
+{
+  "name": "sdk",
+  "version": "1.0.13",
+  "license": {
+    "type": "BSD"
+  },
+  "homepage": "https://github.com/tixngo-mobile-github/tixngo_sdk_ios.git",
+  "authors": {
+    "TIXNGO": "dli_mobile-ci@elca.ch"
+  },
+  "summary": "The FanApp SDK from TIXNGO with love",
+  "source": {
+    "git": "https://github.com/tixngo-mobile-github/tixngo_sdk_ios.git",
+    "tag": "1.0.13"
+  },
+  "source_files": "Tixngo/*.{swift}",
+  "vendored_frameworks": [
+    "app_settings.xcframework",
+    "App.xcframework",
+    "beacon.xcframework",
+    "connectivity_plus.xcframework",
+    "contacts_service.xcframework",
+    "core.xcframework",
+    "DTTJailbreakDetection.xcframework",
+    "Flutter.xcframework",
+    "FlutterPluginRegistrant.xcframework",
+    "FMDB.xcframework",
+    "in_app_review.xcframework",
+    "KeychainSwift.xcframework",
+    "native_font.xcframework",
+    "path_provider_foundation.xcframework",
+    "permission_handler_apple.xcframework",
+    "phone_number.xcframework",
+    "PhoneNumberKit.xcframework",
+    "Reachability.xcframework",
+    "safe_device.xcframework",
+    "screenshot_prevention.xcframework",
+    "share_plus.xcframework",
+    "shared_preferences_foundation.xcframework",
+    "sqflite.xcframework",
+    "system_uptime.xcframework",
+    "url_launcher_ios.xcframework",
+    "wallet_suppression.xcframework",
+    "webview_flutter_wkwebview.xcframework"
+  ],
+  "dependencies": {
+    "KontaktSDK": [
+      "~> 3.0.26"
+    ]
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

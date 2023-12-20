@@ -1,0 +1,1742 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "screenshot_prevention"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "screenshot_prevention"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftScreenshotPreventionPlugin",
+        "printedName": "SwiftScreenshotPreventionPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onListen",
+            "printedName": "onListen(withArguments:eventSink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screenshot_prevention@objc(cs)SwiftScreenshotPreventionPlugin(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s21screenshot_prevention31SwiftScreenshotPreventionPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "objc_name": "onListenWithArguments:eventSink:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel(withArguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screenshot_prevention@objc(cs)SwiftScreenshotPreventionPlugin(im)onCancelWithArguments:",
+            "mangledName": "$s21screenshot_prevention31SwiftScreenshotPreventionPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "objc_name": "onCancelWithArguments:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screenshot_prevention@objc(cs)SwiftScreenshotPreventionPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s21screenshot_prevention31SwiftScreenshotPreventionPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "moduleName": "screenshot_prevention",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerNotification",
+            "printedName": "registerNotification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screenshot_prevention31SwiftScreenshotPreventionPluginC20registerNotificationyyF",
+            "mangledName": "$s21screenshot_prevention31SwiftScreenshotPreventionPluginC20registerNotificationyyF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "screenshotListener",
+            "printedName": "screenshotListener()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screenshot_prevention@objc(cs)SwiftScreenshotPreventionPlugin(im)screenshotListener",
+            "mangledName": "$s21screenshot_prevention31SwiftScreenshotPreventionPluginC0A8ListeneryyF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "screenRecordListener",
+            "printedName": "screenRecordListener()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screenshot_prevention@objc(cs)SwiftScreenshotPreventionPlugin(im)screenRecordListener",
+            "mangledName": "$s21screenshot_prevention31SwiftScreenshotPreventionPluginC20screenRecordListeneryyF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screenshot_prevention@objc(cs)SwiftScreenshotPreventionPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s21screenshot_prevention31SwiftScreenshotPreventionPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupSecurityView",
+            "printedName": "setupSecurityView(isEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screenshot_prevention31SwiftScreenshotPreventionPluginC17setupSecurityView9isEnabledySb_tF",
+            "mangledName": "$s21screenshot_prevention31SwiftScreenshotPreventionPluginC17setupSecurityView9isEnabledySb_tF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftScreenshotPreventionPlugin",
+                "printedName": "screenshot_prevention.SwiftScreenshotPreventionPlugin",
+                "usr": "c:@M@screenshot_prevention@objc(cs)SwiftScreenshotPreventionPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@screenshot_prevention@objc(cs)SwiftScreenshotPreventionPlugin(im)init",
+            "mangledName": "$s21screenshot_prevention31SwiftScreenshotPreventionPluginCACycfc",
+            "moduleName": "screenshot_prevention",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@screenshot_prevention@objc(cs)SwiftScreenshotPreventionPlugin",
+        "mangledName": "$s21screenshot_prevention31SwiftScreenshotPreventionPluginC",
+        "moduleName": "screenshot_prevention",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProtectedImageViewFactory",
+        "printedName": "ProtectedImageViewFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(withFrame:viewIdentifier:arguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPlatformView",
+                "printedName": "Flutter.FlutterPlatformView",
+                "usr": "c:objc(pl)FlutterPlatformView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screenshot_prevention@objc(cs)ProtectedImageViewFactory(im)createWithFrame:viewIdentifier:arguments:",
+            "mangledName": "$s21screenshot_prevention25ProtectedImageViewFactoryC6create9withFrame14viewIdentifier9argumentsSo015FlutterPlatformE0_pSo6CGRectV_s5Int64VypSgtF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "objc_name": "createWithFrame:viewIdentifier:arguments:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createArgsCodec",
+            "printedName": "createArgsCodec()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Flutter.FlutterMessageCodec & ObjectiveC.NSObjectProtocol"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screenshot_prevention@objc(cs)ProtectedImageViewFactory(im)createArgsCodec",
+            "mangledName": "$s21screenshot_prevention25ProtectedImageViewFactoryC15createArgsCodecSo014FlutterMessageI0_So8NSObjectpyF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "objc_name": "createArgsCodec",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtectedImageViewFactory",
+                "printedName": "screenshot_prevention.ProtectedImageViewFactory",
+                "usr": "c:@M@screenshot_prevention@objc(cs)ProtectedImageViewFactory"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@screenshot_prevention@objc(cs)ProtectedImageViewFactory(im)init",
+            "mangledName": "$s21screenshot_prevention25ProtectedImageViewFactoryCACycfc",
+            "moduleName": "screenshot_prevention",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@screenshot_prevention@objc(cs)ProtectedImageViewFactory",
+        "mangledName": "$s21screenshot_prevention25ProtectedImageViewFactoryC",
+        "moduleName": "screenshot_prevention",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProtectedImageView",
+        "printedName": "ProtectedImageView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "frame",
+            "printedName": "frame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screenshot_prevention18ProtectedImageViewC5frameSo6CGRectVvp",
+            "mangledName": "$s21screenshot_prevention18ProtectedImageViewC5frameSo6CGRectVvp",
+            "moduleName": "screenshot_prevention",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screenshot_prevention18ProtectedImageViewC5frameSo6CGRectVvg",
+                "mangledName": "$s21screenshot_prevention18ProtectedImageViewC5frameSo6CGRectVvg",
+                "moduleName": "screenshot_prevention",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screenshot_prevention18ProtectedImageViewC5imageSo7UIImageCSgvp",
+            "mangledName": "$s21screenshot_prevention18ProtectedImageViewC5imageSo7UIImageCSgvp",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screenshot_prevention18ProtectedImageViewC5imageSo7UIImageCSgvg",
+                "mangledName": "$s21screenshot_prevention18ProtectedImageViewC5imageSo7UIImageCSgvg",
+                "moduleName": "screenshot_prevention",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screenshot_prevention18ProtectedImageViewC5imageSo7UIImageCSgvs",
+                "mangledName": "$s21screenshot_prevention18ProtectedImageViewC5imageSo7UIImageCSgvs",
+                "moduleName": "screenshot_prevention",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screenshot_prevention18ProtectedImageViewC5imageSo7UIImageCSgvM",
+                "mangledName": "$s21screenshot_prevention18ProtectedImageViewC5imageSo7UIImageCSgvM",
+                "moduleName": "screenshot_prevention",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:viewId:args:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtectedImageView",
+                "printedName": "screenshot_prevention.ProtectedImageView",
+                "usr": "c:@M@screenshot_prevention@objc(cs)ProtectedImageView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21screenshot_prevention18ProtectedImageViewC_6viewId4argsACSo6CGRectV_s5Int64VypSgtcfc",
+            "mangledName": "$s21screenshot_prevention18ProtectedImageViewC_6viewId4argsACSo6CGRectV_s5Int64VypSgtcfc",
+            "moduleName": "screenshot_prevention",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "view",
+            "printedName": "view()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screenshot_prevention@objc(cs)ProtectedImageView(im)view",
+            "mangledName": "$s21screenshot_prevention18ProtectedImageViewC4viewSo6UIViewCyF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "objc_name": "view",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtectedImageView",
+                "printedName": "screenshot_prevention.ProtectedImageView",
+                "usr": "c:@M@screenshot_prevention@objc(cs)ProtectedImageView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@screenshot_prevention@objc(cs)ProtectedImageView(im)init",
+            "mangledName": "$s21screenshot_prevention18ProtectedImageViewCACycfc",
+            "moduleName": "screenshot_prevention",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@screenshot_prevention@objc(cs)ProtectedImageView",
+        "mangledName": "$s21screenshot_prevention18ProtectedImageViewC",
+        "moduleName": "screenshot_prevention",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScreenProtectorView",
+        "printedName": "ScreenProtectorView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_placeholderImageView",
+            "printedName": "$__lazy_storage_$_placeholderImageView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screenshot_prevention19ScreenProtectorViewC034$__lazy_storage_$_placeholderImageE033_42EFFE81FE95C8E74F38646594013282LLSo07UIImageE0CSgvp",
+            "mangledName": "$s21screenshot_prevention19ScreenProtectorViewC034$__lazy_storage_$_placeholderImageE033_42EFFE81FE95C8E74F38646594013282LLSo07UIImageE0CSgvp",
+            "moduleName": "screenshot_prevention",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "Final"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_imageView",
+            "printedName": "$__lazy_storage_$_imageView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screenshot_prevention19ScreenProtectorViewC023$__lazy_storage_$_imageE033_42EFFE81FE95C8E74F38646594013282LLSo07UIImageE0CSgvp",
+            "mangledName": "$s21screenshot_prevention19ScreenProtectorViewC023$__lazy_storage_$_imageE033_42EFFE81FE95C8E74F38646594013282LLSo07UIImageE0CSgvp",
+            "moduleName": "screenshot_prevention",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "Final"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScreenProtectorView",
+                "printedName": "screenshot_prevention.ScreenProtectorView",
+                "usr": "c:@M@screenshot_prevention@objc(cs)ScreenProtectorView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@screenshot_prevention@objc(cs)ScreenProtectorView(im)initWithFrame:",
+            "mangledName": "$s21screenshot_prevention19ScreenProtectorViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "screenshot_prevention",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "screenshot_prevention.ScreenProtectorView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScreenProtectorView",
+                    "printedName": "screenshot_prevention.ScreenProtectorView",
+                    "usr": "c:@M@screenshot_prevention@objc(cs)ScreenProtectorView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@screenshot_prevention@objc(cs)ScreenProtectorView(im)initWithCoder:",
+            "mangledName": "$s21screenshot_prevention19ScreenProtectorViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "screenshot_prevention",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(with:placeholderImage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScreenProtectorView",
+                "printedName": "screenshot_prevention.ScreenProtectorView",
+                "usr": "c:@M@screenshot_prevention@objc(cs)ScreenProtectorView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21screenshot_prevention19ScreenProtectorViewC4with16placeholderImageACSo7UIImageCSg_AHtcfc",
+            "mangledName": "$s21screenshot_prevention19ScreenProtectorViewC4with16placeholderImageACSo7UIImageCSg_AHtcfc",
+            "moduleName": "screenshot_prevention",
+            "declAttributes": [
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@screenshot_prevention@objc(cs)ScreenProtectorView(im)layoutSubviews",
+            "mangledName": "$s21screenshot_prevention19ScreenProtectorViewC14layoutSubviewsyyF",
+            "moduleName": "screenshot_prevention",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@screenshot_prevention@objc(cs)ScreenProtectorView",
+        "mangledName": "$s21screenshot_prevention19ScreenProtectorViewC",
+        "moduleName": "screenshot_prevention",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScreenRecordDelegate",
+        "printedName": "ScreenRecordDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "screen",
+            "printedName": "screen(_:didRecordStarted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScreen",
+                "printedName": "UIKit.UIScreen",
+                "usr": "c:objc(cs)UIScreen"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screenshot_prevention20ScreenRecordDelegateP6screen_03didD7StartedySo8UIScreenC_SbtF",
+            "mangledName": "$s21screenshot_prevention20ScreenRecordDelegateP6screen_03didD7StartedySo8UIScreenC_SbtF",
+            "moduleName": "screenshot_prevention",
+            "genericSig": "<τ_0_0 where τ_0_0 : screenshot_prevention.ScreenRecordDelegate>",
+            "sugared_genericSig": "<Self where Self : screenshot_prevention.ScreenRecordDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "screen",
+            "printedName": "screen(_:didRecordEnded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScreen",
+                "printedName": "UIKit.UIScreen",
+                "usr": "c:objc(cs)UIScreen"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screenshot_prevention20ScreenRecordDelegateP6screen_03didD5EndedySo8UIScreenC_SbtF",
+            "mangledName": "$s21screenshot_prevention20ScreenRecordDelegateP6screen_03didD5EndedySo8UIScreenC_SbtF",
+            "moduleName": "screenshot_prevention",
+            "genericSig": "<τ_0_0 where τ_0_0 : screenshot_prevention.ScreenRecordDelegate>",
+            "sugared_genericSig": "<Self where Self : screenshot_prevention.ScreenRecordDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21screenshot_prevention20ScreenRecordDelegateP",
+        "mangledName": "$s21screenshot_prevention20ScreenRecordDelegateP",
+        "moduleName": "screenshot_prevention",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScreenGuardManager",
+        "printedName": "ScreenGuardManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScreenGuardManager",
+                "printedName": "screenshot_prevention.ScreenGuardManager",
+                "usr": "s:21screenshot_prevention18ScreenGuardManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screenshot_prevention18ScreenGuardManagerC6sharedACvpZ",
+            "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC6sharedACvpZ",
+            "moduleName": "screenshot_prevention",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScreenGuardManager",
+                    "printedName": "screenshot_prevention.ScreenGuardManager",
+                    "usr": "s:21screenshot_prevention18ScreenGuardManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screenshot_prevention18ScreenGuardManagerC6sharedACvgZ",
+                "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC6sharedACvgZ",
+                "moduleName": "screenshot_prevention",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "screenRecordDelegate",
+            "printedName": "screenRecordDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "screenshot_prevention.ScreenRecordDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScreenRecordDelegate",
+                    "printedName": "screenshot_prevention.ScreenRecordDelegate",
+                    "usr": "s:21screenshot_prevention20ScreenRecordDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21screenshot_prevention18ScreenGuardManagerC20screenRecordDelegateAA0cgH0_pSgvp",
+            "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC20screenRecordDelegateAA0cgH0_pSgvp",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "screenshot_prevention.ScreenRecordDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScreenRecordDelegate",
+                        "printedName": "screenshot_prevention.ScreenRecordDelegate",
+                        "usr": "s:21screenshot_prevention20ScreenRecordDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screenshot_prevention18ScreenGuardManagerC20screenRecordDelegateAA0cgH0_pSgvg",
+                "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC20screenRecordDelegateAA0cgH0_pSgvg",
+                "moduleName": "screenshot_prevention",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "screenshot_prevention.ScreenRecordDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScreenRecordDelegate",
+                        "printedName": "screenshot_prevention.ScreenRecordDelegate",
+                        "usr": "s:21screenshot_prevention20ScreenRecordDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screenshot_prevention18ScreenGuardManagerC20screenRecordDelegateAA0cgH0_pSgvs",
+                "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC20screenRecordDelegateAA0cgH0_pSgvs",
+                "moduleName": "screenshot_prevention",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21screenshot_prevention18ScreenGuardManagerC20screenRecordDelegateAA0cgH0_pSgvM",
+                "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC20screenRecordDelegateAA0cgH0_pSgvM",
+                "moduleName": "screenshot_prevention",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "guardScreenshot",
+            "printedName": "guardScreenshot(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIWindow",
+                "printedName": "UIKit.UIWindow",
+                "usr": "c:objc(cs)UIWindow"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screenshot_prevention18ScreenGuardManagerC15guardScreenshot3forySo8UIWindowC_tF",
+            "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC15guardScreenshot3forySo8UIWindowC_tF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "guardScreenshot",
+            "printedName": "guardScreenshot(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screenshot_prevention18ScreenGuardManagerC15guardScreenshot3forySo6UIViewC_tF",
+            "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC15guardScreenshot3forySo6UIViewC_tF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disableScreenshotProtection",
+            "printedName": "disableScreenshotProtection(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIWindow",
+                "printedName": "UIKit.UIWindow",
+                "usr": "c:objc(cs)UIWindow"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screenshot_prevention18ScreenGuardManagerC27disableScreenshotProtection3forySo8UIWindowC_tF",
+            "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC27disableScreenshotProtection3forySo8UIWindowC_tF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disableScreenshotProtection",
+            "printedName": "disableScreenshotProtection(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screenshot_prevention18ScreenGuardManagerC27disableScreenshotProtection3forySo6UIViewC_tF",
+            "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC27disableScreenshotProtection3forySo6UIViewC_tF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listenForScreenRecord",
+            "printedName": "listenForScreenRecord()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21screenshot_prevention18ScreenGuardManagerC09listenForC6RecordyyF",
+            "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC09listenForC6RecordyyF",
+            "moduleName": "screenshot_prevention",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21screenshot_prevention18ScreenGuardManagerC",
+        "mangledName": "$s21screenshot_prevention18ScreenGuardManagerC",
+        "moduleName": "screenshot_prevention",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "flutterImage",
+            "printedName": "flutterImage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC21screenshot_preventionE12flutterImageyABSgSSFZ",
+            "mangledName": "$sSo7UIImageC21screenshot_preventionE12flutterImageyABSgSSFZ",
+            "moduleName": "screenshot_prevention",
+            "static": true,
+            "isOpen": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/screenshot_prevention\/ios\/Classes\/SwiftScreenshotPreventionPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/screenshot_prevention\/ios\/Classes\/SwiftScreenshotPreventionPlugin.swift",
+      "kind": "StringLiteral",
+      "offset": 4887,
+      "length": 18,
+      "value": "\"screenshot_prevention.ProtectedImageView\""
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios12.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name PhoneNumberKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Contacts
+import Foundation
+@_exported import PhoneNumberKit
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum PhoneNumberError : Swift.Error, Swift.Equatable {
+  case generalError
+  case invalidCountryCode
+  case notANumber
+  case unknownType
+  case tooLong
+  case tooShort
+  case deprecated
+  case metadataNotFound
+  case ambiguousNumber(phoneNumbers: Swift.Set<PhoneNumberKit.PhoneNumber>)
+  public static func == (a: PhoneNumberKit.PhoneNumberError, b: PhoneNumberKit.PhoneNumberError) -> Swift.Bool
+}
+extension PhoneNumberKit.PhoneNumberError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public enum PhoneNumberFormat {
+  case e164
+  case international
+  case national
+  public static func == (a: PhoneNumberKit.PhoneNumberFormat, b: PhoneNumberKit.PhoneNumberFormat) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PhoneNumberType : Swift.String, Swift.Codable {
+  case fixedLine
+  case mobile
+  case fixedOrMobile
+  case pager
+  case personalNumber
+  case premiumRate
+  case sharedCost
+  case tollFree
+  case voicemail
+  case voip
+  case uan
+  case unknown
+  case notParsed
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PossibleLengthType : Swift.String, Swift.Codable {
+  case national
+  case localOnly
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension PhoneNumberKit.PhoneNumber {
+  public func adjustedNationalNumber() -> Swift.String
+}
+extension PhoneNumberKit.MetadataTerritory {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case codeID
+    case countryCode
+    case internationalPrefix
+    case mainCountryForCode
+    case nationalPrefix
+    case nationalPrefixFormattingRule
+    case nationalPrefixForParsing
+    case nationalPrefixTransformRule
+    case preferredExtnPrefix
+    case emergency
+    case fixedLine
+    case generalDesc
+    case mobile
+    case pager
+    case personalNumber
+    case premiumRate
+    case sharedCost
+    case tollFree
+    case voicemail
+    case voip
+    case uan
+    case numberFormats
+    case leadingDigits
+    case availableFormats
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension PhoneNumberKit.MetadataPhoneNumberFormat {
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case pattern
+    case format
+    case intlFormat
+    case leadingDigitsPatterns
+    case nationalPrefixFormattingRule
+    case nationalPrefixOptionalWhenFormatting
+    case domesticCarrierCodeFormattingRule
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MetadataTerritory : Swift.Decodable {
+  public let codeID: Swift.String
+  public let countryCode: Swift.UInt64
+  public let internationalPrefix: Swift.String?
+  public let mainCountryForCode: Swift.Bool
+  public let nationalPrefix: Swift.String?
+  public let nationalPrefixFormattingRule: Swift.String?
+  public let nationalPrefixForParsing: Swift.String?
+  public let nationalPrefixTransformRule: Swift.String?
+  public let preferredExtnPrefix: Swift.String?
+  public let emergency: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let fixedLine: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let generalDesc: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let mobile: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let pager: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let personalNumber: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let premiumRate: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let sharedCost: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let tollFree: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let voicemail: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let voip: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let uan: PhoneNumberKit.MetadataPhoneNumberDesc?
+  public let numberFormats: [PhoneNumberKit.MetadataPhoneNumberFormat]
+  public let leadingDigits: Swift.String?
+}
+public struct MetadataPhoneNumberDesc : Swift.Decodable {
+  public let exampleNumber: Swift.String?
+  public let nationalNumberPattern: Swift.String?
+  public let possibleNumberPattern: Swift.String?
+  public let possibleLengths: PhoneNumberKit.MetadataPossibleLengths?
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MetadataPossibleLengths : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MetadataPhoneNumberFormat : Swift.Decodable {
+  public let pattern: Swift.String?
+  public let format: Swift.String?
+  public let intlFormat: Swift.String?
+  public let leadingDigitsPatterns: [Swift.String]?
+  public var nationalPrefixFormattingRule: Swift.String?
+  public let nationalPrefixOptionalWhenFormatting: Swift.Bool?
+  public let domesticCarrierCodeFormattingRule: Swift.String?
+}
+@_hasMissingDesignatedInitializers final public class PartialFormatter {
+  convenience public init(phoneNumberKit: PhoneNumberKit.PhoneNumberKit = PhoneNumberKit(), defaultRegion: Swift.String = PhoneNumberKit.defaultRegionCode(), withPrefix: Swift.Bool = true, maxDigits: Swift.Int? = nil)
+  final public var defaultRegion: Swift.String {
+    get
+    set
+  }
+  final public var maxDigits: Swift.Int?
+  final public var currentRegion: Swift.String {
+    get
+  }
+  final public func nationalNumber(from rawNumber: Swift.String) -> Swift.String
+  final public func formatPartial(_ rawNumber: Swift.String) -> Swift.String
+  @objc deinit
+}
+public struct PhoneNumber {
+  public let numberString: Swift.String
+  public let countryCode: Swift.UInt64
+  public let leadingZero: Swift.Bool
+  public let nationalNumber: Swift.UInt64
+  public let numberExtension: Swift.String?
+  public let type: PhoneNumberKit.PhoneNumberType
+  public let regionID: Swift.String?
+}
+extension PhoneNumberKit.PhoneNumber : Swift.Equatable {
+  public static func == (lhs: PhoneNumberKit.PhoneNumber, rhs: PhoneNumberKit.PhoneNumber) -> Swift.Bool
+}
+extension PhoneNumberKit.PhoneNumber : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension PhoneNumberKit.PhoneNumber {
+  public static func notPhoneNumber() -> PhoneNumberKit.PhoneNumber
+  public func notParsed() -> Swift.Bool
+  public var url: Foundation.URL? {
+    get
+  }
+}
+extension PhoneNumberKit.PhoneNumber {
+  @available(*, unavailable, message: "use PhoneNumberKit instead to produce PhoneNumbers")
+  public init(rawNumber: Swift.String) throws
+  @available(*, unavailable, message: "use PhoneNumberKit instead to produce PhoneNumbers")
+  public init(rawNumber: Swift.String, region: Swift.String) throws
+}
+public enum PhoneNumberDecodingStrategy {
+  case properties
+  case e164
+  public static var `default`: PhoneNumberKit.PhoneNumberDecodingStrategy
+  public static func == (a: PhoneNumberKit.PhoneNumberDecodingStrategy, b: PhoneNumberKit.PhoneNumberDecodingStrategy) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PhoneNumberEncodingStrategy {
+  case properties
+  case e164
+  public static var `default`: PhoneNumberKit.PhoneNumberEncodingStrategy
+  public static func == (a: PhoneNumberKit.PhoneNumberEncodingStrategy, b: PhoneNumberKit.PhoneNumberEncodingStrategy) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum PhoneNumberDecodingUtils {
+  public static var defaultPhoneNumberKit: () -> PhoneNumberKit.PhoneNumberKit
+}
+public enum PhoneNumberEncodingUtils {
+  public static var defaultPhoneNumberKit: () -> PhoneNumberKit.PhoneNumberKit
+}
+extension Foundation.JSONDecoder {
+  public var phoneNumberDecodingStrategy: PhoneNumberKit.PhoneNumberDecodingStrategy {
+    get
+    set
+  }
+  public var phoneNumberKit: () -> PhoneNumberKit.PhoneNumberKit {
+    get
+    set
+  }
+}
+extension Foundation.JSONEncoder {
+  public var phoneNumberEncodingStrategy: PhoneNumberKit.PhoneNumberEncodingStrategy {
+    get
+    set
+  }
+  public var phoneNumberKit: () -> PhoneNumberKit.PhoneNumberKit {
+    get
+    set
+  }
+}
+extension PhoneNumberKit.PhoneNumber : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@objc open class PhoneNumberFormatter : Foundation.Formatter {
+  final public let phoneNumberKit: PhoneNumberKit.PhoneNumberKit
+  @objc dynamic public var generatesPhoneNumber: Swift.Bool
+  @objc dynamic public var defaultRegion: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc dynamic public var withPrefix: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc dynamic public var currentRegion: Swift.String {
+    @objc get
+  }
+  public init(phoneNumberKit pnk: PhoneNumberKit.PhoneNumberKit = PhoneNumberKit(), defaultRegion: Swift.String = PhoneNumberKit.defaultRegionCode(), withPrefix: Swift.Bool = true)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension PhoneNumberKit.PhoneNumberFormatter {
+  @objc override dynamic open func string(for obj: Any?) -> Swift.String?
+  @objc override dynamic open func getObjectValue(_ obj: Swift.AutoreleasingUnsafeMutablePointer<Swift.AnyObject?>?, for string: Swift.String, errorDescription error: Swift.AutoreleasingUnsafeMutablePointer<Foundation.NSString?>?) -> Swift.Bool
+  @objc override dynamic open func isPartialStringValid(_ partialStringPtr: Swift.AutoreleasingUnsafeMutablePointer<Foundation.NSString>, proposedSelectedRange proposedSelRangePtr: Foundation.NSRangePointer?, originalString origString: Swift.String, originalSelectedRange origSelRange: Foundation.NSRange, errorDescription error: Swift.AutoreleasingUnsafeMutablePointer<Foundation.NSString?>?) -> Swift.Bool
+}
+public typealias MetadataCallback = (() throws -> Foundation.Data?)
+@objc final public class PhoneNumberKit : ObjectiveC.NSObject {
+  public init(metadataCallback: @escaping PhoneNumberKit.MetadataCallback = PhoneNumberKit.defaultMetadataCallback)
+  final public func parse(_ numberString: Swift.String, withRegion region: Swift.String = PhoneNumberKit.defaultRegionCode(), ignoreType: Swift.Bool = false) throws -> PhoneNumberKit.PhoneNumber
+  final public func parse(_ numberStrings: [Swift.String], withRegion region: Swift.String = PhoneNumberKit.defaultRegionCode(), ignoreType: Swift.Bool = false, shouldReturnFailedEmptyNumbers: Swift.Bool = false) -> [PhoneNumberKit.PhoneNumber]
+  final public func isValidPhoneNumber(_ numberString: Swift.String, withRegion region: Swift.String = PhoneNumberKit.defaultRegionCode(), ignoreType: Swift.Bool = false) -> Swift.Bool
+  final public func format(_ phoneNumber: PhoneNumberKit.PhoneNumber, toType formatType: PhoneNumberKit.PhoneNumberFormat, withPrefix prefix: Swift.Bool = true) -> Swift.String
+  final public func allCountries() -> [Swift.String]
+  final public func countries(withCode countryCode: Swift.UInt64) -> [Swift.String]?
+  final public func mainCountry(forCode countryCode: Swift.UInt64) -> Swift.String?
+  final public func countryCode(for country: Swift.String) -> Swift.UInt64?
+  final public func leadingDigits(for country: Swift.String) -> Swift.String?
+  final public func getRegionCode(of phoneNumber: PhoneNumberKit.PhoneNumber) -> Swift.String?
+  final public func getExampleNumber(forCountry countryCode: Swift.String, ofType type: PhoneNumberKit.PhoneNumberType = .mobile) -> PhoneNumberKit.PhoneNumber?
+  final public func getFormattedExampleNumber(forCountry countryCode: Swift.String, ofType type: PhoneNumberKit.PhoneNumberType = .mobile, withFormat format: PhoneNumberKit.PhoneNumberFormat = .international, withPrefix prefix: Swift.Bool = true) -> Swift.String?
+  final public func metadata(for country: Swift.String) -> PhoneNumberKit.MetadataTerritory?
+  final public func metadata(forCode countryCode: Swift.UInt64) -> [PhoneNumberKit.MetadataTerritory]?
+  final public func possiblePhoneNumberLengths(forCountry country: Swift.String, phoneNumberType: PhoneNumberKit.PhoneNumberType, lengthType: PhoneNumberKit.PossibleLengthType) -> [Swift.Int]
+  final public class func defaultRegionCode() -> Swift.String
+  public static func defaultMetadataCallback() throws -> Foundation.Data?
+  @objc deinit
+}
+extension PhoneNumberKit.PhoneNumberKit {
+  public enum CountryCodePicker {
+    public static var commonCountryCodes: [Swift.String]
+    public static var forceModalPresentation: Swift.Bool
+  }
+}
+extension PhoneNumberKit.PhoneNumberFormat : Swift.Equatable {}
+extension PhoneNumberKit.PhoneNumberFormat : Swift.Hashable {}
+extension PhoneNumberKit.PhoneNumberType : Swift.Equatable {}
+extension PhoneNumberKit.PhoneNumberType : Swift.Hashable {}
+extension PhoneNumberKit.PhoneNumberType : Swift.RawRepresentable {}
+extension PhoneNumberKit.PossibleLengthType : Swift.Equatable {}
+extension PhoneNumberKit.PossibleLengthType : Swift.Hashable {}
+extension PhoneNumberKit.PossibleLengthType : Swift.RawRepresentable {}
+extension PhoneNumberKit.MetadataTerritory.CodingKeys : Swift.Equatable {}
+extension PhoneNumberKit.MetadataTerritory.CodingKeys : Swift.Hashable {}
+extension PhoneNumberKit.MetadataTerritory.CodingKeys : Swift.RawRepresentable {}
+extension PhoneNumberKit.MetadataPhoneNumberFormat.CodingKeys : Swift.Equatable {}
+extension PhoneNumberKit.MetadataPhoneNumberFormat.CodingKeys : Swift.Hashable {}
+extension PhoneNumberKit.MetadataPhoneNumberFormat.CodingKeys : Swift.RawRepresentable {}
+extension PhoneNumberKit.PhoneNumberDecodingStrategy : Swift.Equatable {}
+extension PhoneNumberKit.PhoneNumberDecodingStrategy : Swift.Hashable {}
+extension PhoneNumberKit.PhoneNumberEncodingStrategy : Swift.Equatable {}
+extension PhoneNumberKit.PhoneNumberEncodingStrategy : Swift.Hashable {}

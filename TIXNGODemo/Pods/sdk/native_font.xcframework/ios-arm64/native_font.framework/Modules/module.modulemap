@@ -1,0 +1,6 @@
+framework module native_font {
+  umbrella header "native_font-umbrella.h"
+
+  export *
+  module * { export * }
+}

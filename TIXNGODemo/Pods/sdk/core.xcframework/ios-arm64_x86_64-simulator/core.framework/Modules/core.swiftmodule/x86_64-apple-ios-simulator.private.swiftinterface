@@ -1,0 +1,62 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios12.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name core
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AudioToolbox
+import Contacts
+import Flutter
+import Foundation
+import KeychainSwift
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import core
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public var info: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var modelCode: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var modelName: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var deviceId: Swift.String {
+    get
+  }
+}
+extension ObjectiveC.NSObject {
+  public static func loadJsonBundle(_ file: Swift.String) -> Any
+  public static func loadJsonBundle(_ file: Swift.String, bundle: Swift.String) -> Any
+  public static func loadJsonBundle(_ file: Swift.String, aClass: Swift.AnyClass) -> Any
+}
+extension Swift.String {
+  public static var bundleShortVersion: Swift.String {
+    get
+  }
+  public static var bundleBuild: Swift.String {
+    get
+  }
+  public static var bundleIdentifier: Swift.String {
+    get
+  }
+  public static var bundleExecutable: Swift.String {
+    get
+  }
+  public static var bundleAppName: Swift.String {
+    get
+  }
+  public static func bundleIdentifier(aClass: Swift.AnyClass) -> Swift.String
+  public static func bundleExecutable(aClass: Swift.AnyClass) -> Swift.String
+}
+extension Swift.String {
+  public static func mainBundlePath(_ filename: Swift.String) -> Swift.String?
+}
+@objc @_inheritsConvenienceInitializers public class SwiftCorePlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc override dynamic public init()
+  @objc deinit
+}

@@ -1,0 +1,2692 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "beacon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KontaktSDK",
+        "printedName": "KontaktSDK",
+        "declKind": "Import",
+        "moduleName": "beacon"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Beacon",
+        "printedName": "Beacon",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "namespaceID",
+            "printedName": "namespaceID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon6BeaconC11namespaceIDSSvp",
+            "mangledName": "$s6beacon6BeaconC11namespaceIDSSvp",
+            "moduleName": "beacon",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon6BeaconC11namespaceIDSSvg",
+                "mangledName": "$s6beacon6BeaconC11namespaceIDSSvg",
+                "moduleName": "beacon",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instanceID",
+            "printedName": "instanceID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon6BeaconC10instanceIDSSvp",
+            "mangledName": "$s6beacon6BeaconC10instanceIDSSvp",
+            "moduleName": "beacon",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon6BeaconC10instanceIDSSvg",
+                "mangledName": "$s6beacon6BeaconC10instanceIDSSvg",
+                "moduleName": "beacon",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rssi",
+            "printedName": "rssi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon6BeaconC4rssiSivp",
+            "mangledName": "$s6beacon6BeaconC4rssiSivp",
+            "moduleName": "beacon",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon6BeaconC4rssiSivg",
+                "mangledName": "$s6beacon6BeaconC4rssiSivg",
+                "moduleName": "beacon",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon6BeaconC2idSSvp",
+            "mangledName": "$s6beacon6BeaconC2idSSvp",
+            "moduleName": "beacon",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon6BeaconC2idSSvg",
+                "mangledName": "$s6beacon6BeaconC2idSSvg",
+                "moduleName": "beacon",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:namespaceID:instanceID:rssi:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Beacon",
+                "printedName": "beacon.Beacon",
+                "usr": "s:6beacon6BeaconC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6beacon6BeaconC_11namespaceID08instanceD04rssiACSS_S2SSitcfc",
+            "mangledName": "$s6beacon6BeaconC_11namespaceID08instanceD04rssiACSS_S2SSitcfc",
+            "moduleName": "beacon",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "toDictionary",
+            "printedName": "toDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6beacon6BeaconC12toDictionarySDySSypGyF",
+            "mangledName": "$s6beacon6BeaconC12toDictionarySDySSypGyF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6beacon6BeaconC",
+        "mangledName": "$s6beacon6BeaconC",
+        "moduleName": "beacon",
+        "isOpen": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Info",
+        "printedName": "Info",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon4InfoC2idSSvp",
+            "mangledName": "$s6beacon4InfoC2idSSvp",
+            "moduleName": "beacon",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon4InfoC2idSSvg",
+                "mangledName": "$s6beacon4InfoC2idSSvg",
+                "moduleName": "beacon",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon4InfoC4nameSSvp",
+            "mangledName": "$s6beacon4InfoC4nameSSvp",
+            "moduleName": "beacon",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon4InfoC4nameSSvg",
+                "mangledName": "$s6beacon4InfoC4nameSSvg",
+                "moduleName": "beacon",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rssi",
+            "printedName": "rssi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon4InfoC4rssiSivp",
+            "mangledName": "$s6beacon4InfoC4rssiSivp",
+            "moduleName": "beacon",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon4InfoC4rssiSivg",
+                "mangledName": "$s6beacon4InfoC4rssiSivg",
+                "moduleName": "beacon",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:name:rssi:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Info",
+                "printedName": "beacon.Info",
+                "usr": "s:6beacon4InfoC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6beacon4InfoC_4name4rssiACSS_SSSitcfc",
+            "mangledName": "$s6beacon4InfoC_4name4rssiACSS_SSSitcfc",
+            "moduleName": "beacon",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "toDictionary",
+            "printedName": "toDictionary()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6beacon4InfoC12toDictionarySDySSypGyF",
+            "mangledName": "$s6beacon4InfoC12toDictionarySDySSypGyF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6beacon4InfoC",
+        "mangledName": "$s6beacon4InfoC",
+        "moduleName": "beacon",
+        "isOpen": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BeaconCentralDelegate",
+        "printedName": "BeaconCentralDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didDiscoverDevices",
+            "printedName": "didDiscoverDevices(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[beacon.Info]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Info",
+                    "printedName": "beacon.Info",
+                    "usr": "s:6beacon4InfoC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6beacon21BeaconCentralDelegateP18didDiscoverDevicesyySayAA4InfoCGF",
+            "mangledName": "$s6beacon21BeaconCentralDelegateP18didDiscoverDevicesyySayAA4InfoCGF",
+            "moduleName": "beacon",
+            "genericSig": "<τ_0_0 where τ_0_0 : beacon.BeaconCentralDelegate>",
+            "sugared_genericSig": "<Self where Self : beacon.BeaconCentralDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDiscoverBeacon",
+            "printedName": "didDiscoverBeacon(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[beacon.Beacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Beacon",
+                    "printedName": "beacon.Beacon",
+                    "usr": "s:6beacon6BeaconC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6beacon21BeaconCentralDelegateP011didDiscoverB0yySayAA0B0CGF",
+            "mangledName": "$s6beacon21BeaconCentralDelegateP011didDiscoverB0yySayAA0B0CGF",
+            "moduleName": "beacon",
+            "genericSig": "<τ_0_0 where τ_0_0 : beacon.BeaconCentralDelegate>",
+            "sugared_genericSig": "<Self where Self : beacon.BeaconCentralDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6beacon21BeaconCentralDelegateP",
+        "mangledName": "$s6beacon21BeaconCentralDelegateP",
+        "moduleName": "beacon",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BeaconCentral",
+        "printedName": "BeaconCentral",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eddystoneManager",
+            "printedName": "eddystoneManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "KontaktSDK.KTKEddystoneManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KTKEddystoneManager",
+                    "printedName": "KontaktSDK.KTKEddystoneManager",
+                    "usr": "c:objc(cs)KTKEddystoneManager"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon13BeaconCentralC16eddystoneManager33_CEB941550EDA89F43F4DBFE3E142A083LLSo012KTKEddystoneE0CSgvp",
+            "mangledName": "$s6beacon13BeaconCentralC16eddystoneManager33_CEB941550EDA89F43F4DBFE3E142A083LLSo012KTKEddystoneE0CSgvp",
+            "moduleName": "beacon",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "deviceManager",
+            "printedName": "deviceManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "KontaktSDK.KTKDevicesManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KTKDevicesManager",
+                    "printedName": "KontaktSDK.KTKDevicesManager",
+                    "usr": "c:objc(cs)KTKDevicesManager"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon13BeaconCentralC13deviceManager33_CEB941550EDA89F43F4DBFE3E142A083LLSo010KTKDevicesE0CSgvp",
+            "mangledName": "$s6beacon13BeaconCentralC13deviceManager33_CEB941550EDA89F43F4DBFE3E142A083LLSo010KTKDevicesE0CSgvp",
+            "moduleName": "beacon",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "started",
+            "printedName": "started",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon13BeaconCentralC7started33_CEB941550EDA89F43F4DBFE3E142A083LLSbvp",
+            "mangledName": "$s6beacon13BeaconCentralC7started33_CEB941550EDA89F43F4DBFE3E142A083LLSbvp",
+            "moduleName": "beacon",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "namespaceIds",
+            "printedName": "namespaceIds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon13BeaconCentralC12namespaceIds33_CEB941550EDA89F43F4DBFE3E142A083LLSaySSGvp",
+            "mangledName": "$s6beacon13BeaconCentralC12namespaceIds33_CEB941550EDA89F43F4DBFE3E142A083LLSaySSGvp",
+            "moduleName": "beacon",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "beacon.BeaconCentralDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon13BeaconCentralC8delegateAA0bC8Delegate_pSgvp",
+            "mangledName": "$s6beacon13BeaconCentralC8delegateAA0bC8Delegate_pSgvp",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership"
+            ],
+            "fixedbinaryorder": 4,
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "beacon.BeaconCentralDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BeaconCentralDelegate",
+                        "printedName": "beacon.BeaconCentralDelegate",
+                        "usr": "s:6beacon21BeaconCentralDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon13BeaconCentralC8delegateAA0bC8Delegate_pSgvg",
+                "mangledName": "$s6beacon13BeaconCentralC8delegateAA0bC8Delegate_pSgvg",
+                "moduleName": "beacon",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "beacon.BeaconCentralDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BeaconCentralDelegate",
+                        "printedName": "beacon.BeaconCentralDelegate",
+                        "usr": "s:6beacon21BeaconCentralDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon13BeaconCentralC8delegateAA0bC8Delegate_pSgvs",
+                "mangledName": "$s6beacon13BeaconCentralC8delegateAA0bC8Delegate_pSgvs",
+                "moduleName": "beacon",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon13BeaconCentralC8delegateAA0bC8Delegate_pSgvM",
+                "mangledName": "$s6beacon13BeaconCentralC8delegateAA0bC8Delegate_pSgvM",
+                "moduleName": "beacon",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:namespaceIDs:invalidationAgeForeground:invalidationAgeBackground:interval:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BeaconCentral",
+                "printedName": "beacon.BeaconCentral",
+                "usr": "c:@M@beacon@objc(cs)BeaconCentral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BeaconCentralDelegate",
+                "printedName": "beacon.BeaconCentralDelegate",
+                "usr": "s:6beacon21BeaconCentralDelegateP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6beacon13BeaconCentralC_12namespaceIDs25invalidationAgeForeground0fG10Background8interval8delegateACSS_SaySSGS3dAA0bC8Delegate_ptcfc",
+            "mangledName": "$s6beacon13BeaconCentralC_12namespaceIDs25invalidationAgeForeground0fG10Background8interval8delegateACSS_SaySSGS3dAA0bC8Delegate_ptcfc",
+            "moduleName": "beacon",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6beacon13BeaconCentralC5startyyF",
+            "mangledName": "$s6beacon13BeaconCentralC5startyyF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6beacon13BeaconCentralC4stopyyF",
+            "mangledName": "$s6beacon13BeaconCentralC4stopyyF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationDidBecomeActive",
+            "printedName": "applicationDidBecomeActive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@beacon@objc(cs)BeaconCentral(im)applicationDidBecomeActive",
+            "mangledName": "$s6beacon13BeaconCentralC26applicationDidBecomeActiveyyF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationDidBecomeInactive",
+            "printedName": "applicationDidBecomeInactive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@beacon@objc(cs)BeaconCentral(im)applicationDidBecomeInactive",
+            "mangledName": "$s6beacon13BeaconCentralC28applicationDidBecomeInactiveyyF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BeaconCentral",
+                "printedName": "beacon.BeaconCentral",
+                "usr": "c:@M@beacon@objc(cs)BeaconCentral"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@beacon@objc(cs)BeaconCentral(im)init",
+            "mangledName": "$s6beacon13BeaconCentralCACycfc",
+            "moduleName": "beacon",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "devicesManager",
+            "printedName": "devicesManager(_:didDiscover:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KTKDevicesManager",
+                "printedName": "KontaktSDK.KTKDevicesManager",
+                "usr": "c:objc(cs)KTKDevicesManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[KontaktSDK.KTKNearbyDevice]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KTKNearbyDevice",
+                    "printedName": "KontaktSDK.KTKNearbyDevice",
+                    "usr": "c:objc(cs)KTKNearbyDevice"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@beacon@objc(cs)BeaconCentral(im)devicesManager:didDiscoverDevices:",
+            "mangledName": "$s6beacon13BeaconCentralC14devicesManager_11didDiscoverySo010KTKDevicesE0C_SaySo15KTKNearbyDeviceCGtF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "objc_name": "devicesManager:didDiscoverDevices:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "eddystoneManager",
+            "printedName": "eddystoneManager(_:didDiscover:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KTKEddystoneManager",
+                "printedName": "KontaktSDK.KTKEddystoneManager",
+                "usr": "c:objc(cs)KTKEddystoneManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<KontaktSDK.KTKEddystone>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KTKEddystone",
+                    "printedName": "KontaktSDK.KTKEddystone",
+                    "usr": "c:objc(cs)KTKEddystone"
+                  }
+                ],
+                "usr": "s:Sh"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KontaktSDK.KTKEddystoneRegion?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KTKEddystoneRegion",
+                    "printedName": "KontaktSDK.KTKEddystoneRegion",
+                    "usr": "c:objc(cs)KTKEddystoneRegion"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@beacon@objc(cs)BeaconCentral(im)eddystoneManager:didDiscoverEddystones:inRegion:",
+            "mangledName": "$s6beacon13BeaconCentralC16eddystoneManager_11didDiscover2inySo012KTKEddystoneE0C_ShySo0I0CGSo0I6RegionCSgtF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "objc_name": "eddystoneManager:didDiscoverEddystones:inRegion:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@beacon@objc(cs)BeaconCentral",
+        "mangledName": "$s6beacon13BeaconCentralC",
+        "moduleName": "beacon",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "beacon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BluetoothCentralDelegate",
+        "printedName": "BluetoothCentralDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didChangeState",
+            "printedName": "didChangeState(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BluetoothState",
+                "printedName": "beacon.BluetoothState",
+                "usr": "s:6beacon14BluetoothStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6beacon24BluetoothCentralDelegateP14didChangeStateyyAA0bG0OF",
+            "mangledName": "$s6beacon24BluetoothCentralDelegateP14didChangeStateyyAA0bG0OF",
+            "moduleName": "beacon",
+            "genericSig": "<τ_0_0 where τ_0_0 : beacon.BluetoothCentralDelegate>",
+            "sugared_genericSig": "<Self where Self : beacon.BluetoothCentralDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6beacon24BluetoothCentralDelegateP",
+        "mangledName": "$s6beacon24BluetoothCentralDelegateP",
+        "moduleName": "beacon",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BluetoothCentral",
+        "printedName": "BluetoothCentral",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "central",
+            "printedName": "central",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreBluetooth.CBCentralManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CBCentralManager",
+                    "printedName": "CoreBluetooth.CBCentralManager",
+                    "usr": "c:objc(cs)CBCentralManager"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon16BluetoothCentralC7central33_BCEB8261285573CAC40B382BDCF7FB6CLLSo16CBCentralManagerCSgvp",
+            "mangledName": "$s6beacon16BluetoothCentralC7central33_BCEB8261285573CAC40B382BDCF7FB6CLLSo16CBCentralManagerCSgvp",
+            "moduleName": "beacon",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "lastStatus",
+            "printedName": "lastStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "beacon.BluetoothState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BluetoothState",
+                    "printedName": "beacon.BluetoothState",
+                    "usr": "s:6beacon14BluetoothStateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon16BluetoothCentralC10lastStatus33_BCEB8261285573CAC40B382BDCF7FB6CLLAA0B5StateOSgvp",
+            "mangledName": "$s6beacon16BluetoothCentralC10lastStatus33_BCEB8261285573CAC40B382BDCF7FB6CLLAA0B5StateOSgvp",
+            "moduleName": "beacon",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "queue",
+            "printedName": "queue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon16BluetoothCentralC5queue33_BCEB8261285573CAC40B382BDCF7FB6CLLSo012OS_dispatch_D0Cvp",
+            "mangledName": "$s6beacon16BluetoothCentralC5queue33_BCEB8261285573CAC40B382BDCF7FB6CLLSo012OS_dispatch_D0Cvp",
+            "moduleName": "beacon",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "beacon.BluetoothCentralDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon16BluetoothCentralC8delegate33_BCEB8261285573CAC40B382BDCF7FB6CLLAA0bC8Delegate_pSgvp",
+            "mangledName": "$s6beacon16BluetoothCentralC8delegate33_BCEB8261285573CAC40B382BDCF7FB6CLLAA0bC8Delegate_pSgvp",
+            "moduleName": "beacon",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BluetoothCentral",
+                "printedName": "beacon.BluetoothCentral",
+                "usr": "c:@M@beacon@objc(cs)BluetoothCentral"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "beacon.BluetoothCentralDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BluetoothCentralDelegate",
+                    "printedName": "beacon.BluetoothCentralDelegate",
+                    "usr": "s:6beacon24BluetoothCentralDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6beacon16BluetoothCentralCyAcA0bC8Delegate_pSgcfc",
+            "mangledName": "$s6beacon16BluetoothCentralCyAcA0bC8Delegate_pSgcfc",
+            "moduleName": "beacon",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManagerDidUpdateState",
+            "printedName": "centralManagerDidUpdateState(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@beacon@objc(cs)BluetoothCentral(im)centralManagerDidUpdateState:",
+            "mangledName": "$s6beacon16BluetoothCentralC28centralManagerDidUpdateStateyySo09CBCentralE0CF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "objc_name": "centralManagerDidUpdateState:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "beacon.BluetoothState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BluetoothState",
+                    "printedName": "beacon.BluetoothState",
+                    "usr": "s:6beacon14BluetoothStateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon16BluetoothCentralC6statusAA0B5StateOSgvp",
+            "mangledName": "$s6beacon16BluetoothCentralC6statusAA0B5StateOSgvp",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "beacon.BluetoothState?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BluetoothState",
+                        "printedName": "beacon.BluetoothState",
+                        "usr": "s:6beacon14BluetoothStateO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon16BluetoothCentralC6statusAA0B5StateOSgvg",
+                "mangledName": "$s6beacon16BluetoothCentralC6statusAA0B5StateOSgvg",
+                "moduleName": "beacon",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEnable",
+            "printedName": "isEnable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon16BluetoothCentralC8isEnableSbvp",
+            "mangledName": "$s6beacon16BluetoothCentralC8isEnableSbvp",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon16BluetoothCentralC8isEnableSbvg",
+                "mangledName": "$s6beacon16BluetoothCentralC8isEnableSbvg",
+                "moduleName": "beacon",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BluetoothCentral",
+                "printedName": "beacon.BluetoothCentral",
+                "usr": "c:@M@beacon@objc(cs)BluetoothCentral"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@beacon@objc(cs)BluetoothCentral(im)init",
+            "mangledName": "$s6beacon16BluetoothCentralCACycfc",
+            "moduleName": "beacon",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@beacon@objc(cs)BluetoothCentral",
+        "mangledName": "$s6beacon16BluetoothCentralC",
+        "moduleName": "beacon",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BluetoothState",
+        "printedName": "BluetoothState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(beacon.BluetoothState.Type) -> beacon.BluetoothState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BluetoothState",
+                    "printedName": "beacon.BluetoothState",
+                    "usr": "s:6beacon14BluetoothStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "beacon.BluetoothState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BluetoothState",
+                        "printedName": "beacon.BluetoothState",
+                        "usr": "s:6beacon14BluetoothStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6beacon14BluetoothStateO7unknownyA2CmF",
+            "mangledName": "$s6beacon14BluetoothStateO7unknownyA2CmF",
+            "moduleName": "beacon",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "unsupported",
+            "printedName": "unsupported",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(beacon.BluetoothState.Type) -> beacon.BluetoothState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BluetoothState",
+                    "printedName": "beacon.BluetoothState",
+                    "usr": "s:6beacon14BluetoothStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "beacon.BluetoothState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BluetoothState",
+                        "printedName": "beacon.BluetoothState",
+                        "usr": "s:6beacon14BluetoothStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6beacon14BluetoothStateO11unsupportedyA2CmF",
+            "mangledName": "$s6beacon14BluetoothStateO11unsupportedyA2CmF",
+            "moduleName": "beacon",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "unauthorized",
+            "printedName": "unauthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(beacon.BluetoothState.Type) -> beacon.BluetoothState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BluetoothState",
+                    "printedName": "beacon.BluetoothState",
+                    "usr": "s:6beacon14BluetoothStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "beacon.BluetoothState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BluetoothState",
+                        "printedName": "beacon.BluetoothState",
+                        "usr": "s:6beacon14BluetoothStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6beacon14BluetoothStateO12unauthorizedyA2CmF",
+            "mangledName": "$s6beacon14BluetoothStateO12unauthorizedyA2CmF",
+            "moduleName": "beacon",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "poweredOff",
+            "printedName": "poweredOff",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(beacon.BluetoothState.Type) -> beacon.BluetoothState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BluetoothState",
+                    "printedName": "beacon.BluetoothState",
+                    "usr": "s:6beacon14BluetoothStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "beacon.BluetoothState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BluetoothState",
+                        "printedName": "beacon.BluetoothState",
+                        "usr": "s:6beacon14BluetoothStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6beacon14BluetoothStateO10poweredOffyA2CmF",
+            "mangledName": "$s6beacon14BluetoothStateO10poweredOffyA2CmF",
+            "moduleName": "beacon",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "poweredOn",
+            "printedName": "poweredOn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(beacon.BluetoothState.Type) -> beacon.BluetoothState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BluetoothState",
+                    "printedName": "beacon.BluetoothState",
+                    "usr": "s:6beacon14BluetoothStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "beacon.BluetoothState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BluetoothState",
+                        "printedName": "beacon.BluetoothState",
+                        "usr": "s:6beacon14BluetoothStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6beacon14BluetoothStateO9poweredOnyA2CmF",
+            "mangledName": "$s6beacon14BluetoothStateO9poweredOnyA2CmF",
+            "moduleName": "beacon",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon14BluetoothStateO5valueSivp",
+            "mangledName": "$s6beacon14BluetoothStateO5valueSivp",
+            "moduleName": "beacon",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon14BluetoothStateO5valueSivg",
+                "mangledName": "$s6beacon14BluetoothStateO5valueSivg",
+                "moduleName": "beacon",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "beacon.BluetoothState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BluetoothState",
+                    "printedName": "beacon.BluetoothState",
+                    "usr": "s:6beacon14BluetoothStateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6beacon14BluetoothStateO8rawValueACSgSi_tcfc",
+            "mangledName": "$s6beacon14BluetoothStateO8rawValueACSgSi_tcfc",
+            "moduleName": "beacon",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon14BluetoothStateO8rawValueSivp",
+            "mangledName": "$s6beacon14BluetoothStateO8rawValueSivp",
+            "moduleName": "beacon",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon14BluetoothStateO8rawValueSivg",
+                "mangledName": "$s6beacon14BluetoothStateO8rawValueSivg",
+                "moduleName": "beacon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6beacon14BluetoothStateO",
+        "mangledName": "$s6beacon14BluetoothStateO",
+        "moduleName": "beacon",
+        "enumRawTypeName": "Int",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "beacon"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "beacon"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "beacon"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftBeaconPlugin",
+        "printedName": "SwiftBeaconPlugin",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onListen",
+            "printedName": "onListen(withArguments:eventSink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@beacon@objc(cs)SwiftBeaconPlugin(im)onListenWithArguments:eventSink:",
+            "mangledName": "$s6beacon17SwiftBeaconPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "objc_name": "onListenWithArguments:eventSink:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCancel",
+            "printedName": "onCancel(withArguments:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Flutter.FlutterError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterError",
+                    "printedName": "Flutter.FlutterError",
+                    "usr": "c:objc(cs)FlutterError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@beacon@objc(cs)SwiftBeaconPlugin(im)onCancelWithArguments:",
+            "mangledName": "$s6beacon17SwiftBeaconPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "objc_name": "onCancelWithArguments:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@beacon@objc(cs)SwiftBeaconPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s6beacon17SwiftBeaconPluginC8register4withySo07FlutterD9Registrar_p_tFZ",
+            "moduleName": "beacon",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isBluetoothPermissionGranted",
+            "printedName": "isBluetoothPermissionGranted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6beacon17SwiftBeaconPluginC28isBluetoothPermissionGrantedSbvp",
+            "mangledName": "$s6beacon17SwiftBeaconPluginC28isBluetoothPermissionGrantedSbvp",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6beacon17SwiftBeaconPluginC28isBluetoothPermissionGrantedSbvg",
+                "mangledName": "$s6beacon17SwiftBeaconPluginC28isBluetoothPermissionGrantedSbvg",
+                "moduleName": "beacon",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "didChangeState",
+            "printedName": "didChangeState(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BluetoothState",
+                "printedName": "beacon.BluetoothState",
+                "usr": "s:6beacon14BluetoothStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6beacon17SwiftBeaconPluginC14didChangeStateyyAA09BluetoothG0OF",
+            "mangledName": "$s6beacon17SwiftBeaconPluginC14didChangeStateyyAA09BluetoothG0OF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDiscoverDevices",
+            "printedName": "didDiscoverDevices(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[beacon.Info]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Info",
+                    "printedName": "beacon.Info",
+                    "usr": "s:6beacon4InfoC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6beacon17SwiftBeaconPluginC18didDiscoverDevicesyySayAA4InfoCGF",
+            "mangledName": "$s6beacon17SwiftBeaconPluginC18didDiscoverDevicesyySayAA4InfoCGF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDiscoverBeacon",
+            "printedName": "didDiscoverBeacon(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[beacon.Beacon]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Beacon",
+                    "printedName": "beacon.Beacon",
+                    "usr": "s:6beacon6BeaconC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6beacon17SwiftBeaconPluginC011didDiscoverC0yySayAA0C0CGF",
+            "mangledName": "$s6beacon17SwiftBeaconPluginC011didDiscoverC0yySayAA0C0CGF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@beacon@objc(cs)SwiftBeaconPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s6beacon17SwiftBeaconPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "beacon",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftBeaconPlugin",
+                "printedName": "beacon.SwiftBeaconPlugin",
+                "usr": "c:@M@beacon@objc(cs)SwiftBeaconPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@beacon@objc(cs)SwiftBeaconPlugin(im)init",
+            "mangledName": "$s6beacon17SwiftBeaconPluginCACycfc",
+            "moduleName": "beacon",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@beacon@objc(cs)SwiftBeaconPlugin",
+        "mangledName": "$s6beacon17SwiftBeaconPluginC",
+        "moduleName": "beacon",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "BeaconCentralDelegate",
+            "printedName": "BeaconCentralDelegate",
+            "usr": "s:6beacon21BeaconCentralDelegateP",
+            "mangledName": "$s6beacon21BeaconCentralDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BluetoothCentralDelegate",
+            "printedName": "BluetoothCentralDelegate",
+            "usr": "s:6beacon24BluetoothCentralDelegateP",
+            "mangledName": "$s6beacon24BluetoothCentralDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BeaconCentral.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1305,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BeaconCentral.swift",
+      "kind": "Array",
+      "offset": 1352,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BeaconCentral.swift",
+      "kind": "StringLiteral",
+      "offset": 1137,
+      "length": 13,
+      "value": "\"beacon.BeaconCentral\""
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 28,
+      "value": "\"io.tixngo.beacon.bluetooth\""
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 16,
+      "value": "\"beacon.BluetoothCentral\""
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1218,
+      "length": 2,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1245,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1273,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1323,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1218,
+      "length": 1,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1245,
+      "length": 1,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1273,
+      "length": 1,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1323,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1218,
+      "length": 1,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1245,
+      "length": 1,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1273,
+      "length": 1,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1323,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2005,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2029,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2055,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2082,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2107,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2131,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2005,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2029,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2055,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2082,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2107,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2131,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2005,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2029,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2055,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2082,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2107,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2131,
+      "length": 1,
+      "value": "5"
+    }
+  ]
+}

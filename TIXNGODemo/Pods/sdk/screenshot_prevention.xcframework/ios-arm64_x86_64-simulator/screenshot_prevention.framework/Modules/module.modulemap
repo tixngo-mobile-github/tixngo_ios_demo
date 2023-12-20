@@ -1,0 +1,11 @@
+framework module screenshot_prevention {
+  umbrella header "screenshot_prevention-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module screenshot_prevention.Swift {
+  header "screenshot_prevention-Swift.h"
+  requires objc
+}

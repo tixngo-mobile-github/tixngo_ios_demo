@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		385F62832B32EC74009CC482 /* UIAlertController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62802B32EC74009CC482 /* UIAlertController+extension.swift */; };
+		385F62842B32EC74009CC482 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62812B32EC74009CC482 /* UIColor+Extension.swift */; };
+		385F62852B32EC74009CC482 /* Notification+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62822B32EC74009CC482 /* Notification+extension.swift */; };
+		385F62872B32EC90009CC482 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62862B32EC90009CC482 /* ProfileModel.swift */; };
+		385F628D2B32ECC2009CC482 /* AwsCognitoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F628A2B32ECC2009CC482 /* AwsCognitoService.swift */; };
+		385F628E2B32ECC2009CC482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F628B2B32ECC2009CC482 /* AppDelegate.swift */; };
+		385F628F2B32ECC2009CC482 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F628C2B32ECC2009CC482 /* FirebaseService.swift */; };
+		385F62992B32ECCD009CC482 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62902B32ECCD009CC482 /* SpinnerViewController.swift */; };
+		385F629A2B32ECCD009CC482 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62912B32ECCD009CC482 /* MainViewController.swift */; };
+		385F629B2B32ECCD009CC482 /* ConfirmForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62922B32ECCD009CC482 /* ConfirmForgotPassViewController.swift */; };
+		385F629C2B32ECCD009CC482 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62932B32ECCD009CC482 /* SignupViewController.swift */; };
+		385F629D2B32ECCD009CC482 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62942B32ECCD009CC482 /* SplashViewController.swift */; };
+		385F629E2B32ECCD009CC482 /* EmbeddedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62952B32ECCD009CC482 /* EmbeddedViewController.swift */; };
+		385F629F2B32ECCD009CC482 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62962B32ECCD009CC482 /* ForgotPasswordViewController.swift */; };
+		385F62A02B32ECCD009CC482 /* ConfirmSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62972B32ECCD009CC482 /* ConfirmSignupViewController.swift */; };
+		385F62A12B32ECCD009CC482 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F62982B32ECCD009CC482 /* LoginViewController.swift */; };
+		385F62A52B32EE98009CC482 /* Qatar2022-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 385F62A32B32ECD8009CC482 /* Qatar2022-Bold.otf */; };
+		385F62A62B32EE98009CC482 /* Qatar2022-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 385F62A22B32ECD8009CC482 /* Qatar2022-Medium.otf */; };
+		385F62A72B32EE98009CC482 /* Qatar2022-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 385F62A42B32ECD8009CC482 /* Qatar2022-Regular.otf */; };
+		38CD9DC62B32E58700ECDA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CD9DC42B32E58700ECDA29 /* Main.storyboard */; };
+		38CD9DC82B32E58A00ECDA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CD9DC72B32E58A00ECDA29 /* Assets.xcassets */; };
+		38CD9DCB2B32E58A00ECDA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CD9DC92B32E58A00ECDA29 /* LaunchScreen.storyboard */; };
+		38CD9DDC2B32E6B800ECDA29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38CD9DD62B32E6B800ECDA29 /* GoogleService-Info.plist */; };
+		F7C1B968893B9B8668B0229D /* Pods_TIXNGODemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AB3FC61A70D94C2BBCA0D8 /* Pods_TIXNGODemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F07B924972E14094B1F4C29 /* Pods-TIXNGODemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIXNGODemo.release.xcconfig"; path = "Target Support Files/Pods-TIXNGODemo/Pods-TIXNGODemo.release.xcconfig"; sourceTree = "<group>"; };
+		10AB3FC61A70D94C2BBCA0D8 /* Pods_TIXNGODemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIXNGODemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		385F62802B32EC74009CC482 /* UIAlertController+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+extension.swift"; sourceTree = "<group>"; };
+		385F62812B32EC74009CC482 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		385F62822B32EC74009CC482 /* Notification+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+extension.swift"; sourceTree = "<group>"; };
+		385F62862B32EC90009CC482 /* ProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		385F628A2B32ECC2009CC482 /* AwsCognitoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwsCognitoService.swift; sourceTree = "<group>"; };
+		385F628B2B32ECC2009CC482 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		385F628C2B32ECC2009CC482 /* FirebaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		385F62902B32ECCD009CC482 /* SpinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		385F62912B32ECCD009CC482 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		385F62922B32ECCD009CC482 /* ConfirmForgotPassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmForgotPassViewController.swift; sourceTree = "<group>"; };
+		385F62932B32ECCD009CC482 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		385F62942B32ECCD009CC482 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		385F62952B32ECCD009CC482 /* EmbeddedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmbeddedViewController.swift; sourceTree = "<group>"; };
+		385F62962B32ECCD009CC482 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		385F62972B32ECCD009CC482 /* ConfirmSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSignupViewController.swift; sourceTree = "<group>"; };
+		385F62982B32ECCD009CC482 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		385F62A22B32ECD8009CC482 /* Qatar2022-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qatar2022-Medium.otf"; sourceTree = "<group>"; };
+		385F62A32B32ECD8009CC482 /* Qatar2022-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qatar2022-Bold.otf"; sourceTree = "<group>"; };
+		385F62A42B32ECD8009CC482 /* Qatar2022-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qatar2022-Regular.otf"; sourceTree = "<group>"; };
+		38CD9DBB2B32E58700ECDA29 /* TIXNGODemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIXNGODemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CD9DC52B32E58700ECDA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38CD9DC72B32E58A00ECDA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38CD9DCA2B32E58A00ECDA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38CD9DCC2B32E58A00ECDA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CD9DD62B32E6B800ECDA29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E9E9866A10C4F291F291C96E /* Pods-TIXNGODemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIXNGODemo.debug.xcconfig"; path = "Target Support Files/Pods-TIXNGODemo/Pods-TIXNGODemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38CD9DB82B32E58700ECDA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C1B968893B9B8668B0229D /* Pods_TIXNGODemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		385F627B2B32EBA8009CC482 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				385F62A32B32ECD8009CC482 /* Qatar2022-Bold.otf */,
+				385F62A22B32ECD8009CC482 /* Qatar2022-Medium.otf */,
+				385F62A42B32ECD8009CC482 /* Qatar2022-Regular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		385F627C2B32EBB0009CC482 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				385F62822B32EC74009CC482 /* Notification+extension.swift */,
+				385F62802B32EC74009CC482 /* UIAlertController+extension.swift */,
+				385F62812B32EC74009CC482 /* UIColor+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		385F627D2B32EBB6009CC482 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				385F62862B32EC90009CC482 /* ProfileModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		385F627E2B32EBBC009CC482 /* AppContext */ = {
+			isa = PBXGroup;
+			children = (
+				385F628B2B32ECC2009CC482 /* AppDelegate.swift */,
+				385F628A2B32ECC2009CC482 /* AwsCognitoService.swift */,
+				385F628C2B32ECC2009CC482 /* FirebaseService.swift */,
+			);
+			path = AppContext;
+			sourceTree = "<group>";
+		};
+		385F627F2B32EBC3009CC482 /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				385F62922B32ECCD009CC482 /* ConfirmForgotPassViewController.swift */,
+				385F62972B32ECCD009CC482 /* ConfirmSignupViewController.swift */,
+				385F62952B32ECCD009CC482 /* EmbeddedViewController.swift */,
+				385F62962B32ECCD009CC482 /* ForgotPasswordViewController.swift */,
+				385F62982B32ECCD009CC482 /* LoginViewController.swift */,
+				385F62912B32ECCD009CC482 /* MainViewController.swift */,
+				385F62932B32ECCD009CC482 /* SignupViewController.swift */,
+				385F62902B32ECCD009CC482 /* SpinnerViewController.swift */,
+				385F62942B32ECCD009CC482 /* SplashViewController.swift */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		38CD9DB22B32E58700ECDA29 = {
+			isa = PBXGroup;
+			children = (
+				38CD9DBD2B32E58700ECDA29 /* TIXNGODemo */,
+				38CD9DBC2B32E58700ECDA29 /* Products */,
+				C7C72840B13A2604821B9A08 /* Pods */,
+				B4FE72C37E398EF6E579D2F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38CD9DBC2B32E58700ECDA29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38CD9DBB2B32E58700ECDA29 /* TIXNGODemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38CD9DBD2B32E58700ECDA29 /* TIXNGODemo */ = {
+			isa = PBXGroup;
+			children = (
+				385F627F2B32EBC3009CC482 /* UIs */,
+				385F627E2B32EBBC009CC482 /* AppContext */,
+				385F627D2B32EBB6009CC482 /* Models */,
+				385F627C2B32EBB0009CC482 /* Utils */,
+				385F627B2B32EBA8009CC482 /* fonts */,
+				38CD9DD62B32E6B800ECDA29 /* GoogleService-Info.plist */,
+				38CD9DC42B32E58700ECDA29 /* Main.storyboard */,
+				38CD9DC72B32E58A00ECDA29 /* Assets.xcassets */,
+				38CD9DC92B32E58A00ECDA29 /* LaunchScreen.storyboard */,
+				38CD9DCC2B32E58A00ECDA29 /* Info.plist */,
+			);
+			path = TIXNGODemo;
+			sourceTree = "<group>";
+		};
+		B4FE72C37E398EF6E579D2F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10AB3FC61A70D94C2BBCA0D8 /* Pods_TIXNGODemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7C72840B13A2604821B9A08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9E9866A10C4F291F291C96E /* Pods-TIXNGODemo.debug.xcconfig */,
+				0F07B924972E14094B1F4C29 /* Pods-TIXNGODemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38CD9DBA2B32E58700ECDA29 /* TIXNGODemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38CD9DCF2B32E58A00ECDA29 /* Build configuration list for PBXNativeTarget "TIXNGODemo" */;
+			buildPhases = (
+				58C65E770FD878C0B0B68A97 /* [CP] Check Pods Manifest.lock */,
+				38CD9DB72B32E58700ECDA29 /* Sources */,
+				38CD9DB82B32E58700ECDA29 /* Frameworks */,
+				38CD9DB92B32E58700ECDA29 /* Resources */,
+				1BE8028506B0C077445247AC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TIXNGODemo;
+			productName = TIXNGODemo;
+			productReference = 38CD9DBB2B32E58700ECDA29 /* TIXNGODemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38CD9DB32B32E58700ECDA29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					38CD9DBA2B32E58700ECDA29 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = 38CD9DB62B32E58700ECDA29 /* Build configuration list for PBXProject "TIXNGODemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38CD9DB22B32E58700ECDA29;
+			productRefGroup = 38CD9DBC2B32E58700ECDA29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38CD9DBA2B32E58700ECDA29 /* TIXNGODemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38CD9DB92B32E58700ECDA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385F62A52B32EE98009CC482 /* Qatar2022-Bold.otf in Resources */,
+				385F62A62B32EE98009CC482 /* Qatar2022-Medium.otf in Resources */,
+				385F62A72B32EE98009CC482 /* Qatar2022-Regular.otf in Resources */,
+				38CD9DDC2B32E6B800ECDA29 /* GoogleService-Info.plist in Resources */,
+				38CD9DCB2B32E58A00ECDA29 /* LaunchScreen.storyboard in Resources */,
+				38CD9DC82B32E58A00ECDA29 /* Assets.xcassets in Resources */,
+				38CD9DC62B32E58700ECDA29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE8028506B0C077445247AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TIXNGODemo/Pods-TIXNGODemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TIXNGODemo/Pods-TIXNGODemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TIXNGODemo/Pods-TIXNGODemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C65E770FD878C0B0B68A97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TIXNGODemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38CD9DB72B32E58700ECDA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385F628E2B32ECC2009CC482 /* AppDelegate.swift in Sources */,
+				385F62852B32EC74009CC482 /* Notification+extension.swift in Sources */,
+				385F629C2B32ECCD009CC482 /* SignupViewController.swift in Sources */,
+				385F62A02B32ECCD009CC482 /* ConfirmSignupViewController.swift in Sources */,
+				385F629D2B32ECCD009CC482 /* SplashViewController.swift in Sources */,
+				385F62832B32EC74009CC482 /* UIAlertController+extension.swift in Sources */,
+				385F629B2B32ECCD009CC482 /* ConfirmForgotPassViewController.swift in Sources */,
+				385F628D2B32ECC2009CC482 /* AwsCognitoService.swift in Sources */,
+				385F629E2B32ECCD009CC482 /* EmbeddedViewController.swift in Sources */,
+				385F629F2B32ECCD009CC482 /* ForgotPasswordViewController.swift in Sources */,
+				385F62992B32ECCD009CC482 /* SpinnerViewController.swift in Sources */,
+				385F628F2B32ECC2009CC482 /* FirebaseService.swift in Sources */,
+				385F62A12B32ECCD009CC482 /* LoginViewController.swift in Sources */,
+				385F629A2B32ECCD009CC482 /* MainViewController.swift in Sources */,
+				385F62842B32EC74009CC482 /* UIColor+Extension.swift in Sources */,
+				385F62872B32EC90009CC482 /* ProfileModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38CD9DC42B32E58700ECDA29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CD9DC52B32E58700ECDA29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38CD9DC92B32E58A00ECDA29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38CD9DCA2B32E58A00ECDA29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38CD9DCD2B32E58A00ECDA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38CD9DCE2B32E58A00ECDA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38CD9DD02B32E58A00ECDA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E9866A10C4F291F291C96E /* Pods-TIXNGODemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA24KD6P75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TIXNGODemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.9.11;
+				PRODUCT_BUNDLE_IDENTIFIER = io.tixngo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38CD9DD12B32E58A00ECDA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F07B924972E14094B1F4C29 /* Pods-TIXNGODemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA24KD6P75;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TIXNGODemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.9.11;
+				PRODUCT_BUNDLE_IDENTIFIER = io.tixngo.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38CD9DB62B32E58700ECDA29 /* Build configuration list for PBXProject "TIXNGODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CD9DCD2B32E58A00ECDA29 /* Debug */,
+				38CD9DCE2B32E58A00ECDA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38CD9DCF2B32E58A00ECDA29 /* Build configuration list for PBXNativeTarget "TIXNGODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38CD9DD02B32E58A00ECDA29 /* Debug */,
+				38CD9DD12B32E58A00ECDA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38CD9DB32B32E58700ECDA29 /* Project object */;
+}
