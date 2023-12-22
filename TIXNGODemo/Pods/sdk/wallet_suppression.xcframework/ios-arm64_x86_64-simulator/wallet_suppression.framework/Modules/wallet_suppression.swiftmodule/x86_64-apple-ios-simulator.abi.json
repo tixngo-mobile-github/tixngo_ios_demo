@@ -653,21 +653,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/wallet_suppression\/ios\/Classes\/SwiftWalletSuppressionPlugin.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/wallet_suppression\/ios\/Classes\/SwiftWalletSuppressionPlugin.swift",
       "kind": "StringLiteral",
       "offset": 69,
       "length": 37,
       "value": "\"wallet_suppression.log.notification\""
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/wallet_suppression\/ios\/Classes\/WalletSuppressionController.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/wallet_suppression\/ios\/Classes\/WalletSuppressionController.swift",
       "kind": "BooleanLiteral",
       "offset": 347,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/wallet_suppression\/ios\/Classes\/WalletSuppressionController.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/wallet_suppression\/ios\/Classes\/WalletSuppressionController.swift",
       "kind": "BooleanLiteral",
       "offset": 396,
       "length": 5,

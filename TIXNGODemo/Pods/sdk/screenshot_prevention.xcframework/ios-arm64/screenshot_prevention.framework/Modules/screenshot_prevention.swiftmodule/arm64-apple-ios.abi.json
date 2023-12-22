@@ -1725,14 +1725,14 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/screenshot_prevention\/ios\/Classes\/SwiftScreenshotPreventionPlugin.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/screenshot_prevention\/ios\/Classes\/SwiftScreenshotPreventionPlugin.swift",
       "kind": "BooleanLiteral",
       "offset": 4377,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/screenshot_prevention\/ios\/Classes\/SwiftScreenshotPreventionPlugin.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/screenshot_prevention\/ios\/Classes\/SwiftScreenshotPreventionPlugin.swift",
       "kind": "StringLiteral",
       "offset": 4887,
       "length": 18,

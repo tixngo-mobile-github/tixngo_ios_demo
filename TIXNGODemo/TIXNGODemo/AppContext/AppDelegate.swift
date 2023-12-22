@@ -61,7 +61,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                          supportLanguages: [TixngoLanguages.en, TixngoLanguages.fr],
                                    defaultLanguage: TixngoLanguages.en,
                                    theme: theme,
-                                         appId: "io.tixngo.app.sdk")
+                                         appId: "io.tixngo.app.sdk",
+                                         config: TixngoSDKConfig(displayType: DisplayType.embedded, isExistSignout: false, isHaveMenu: false))
         TixngoManager.instance.initialize(config: config) { isAuthenticated in
             NotificationCenter.default.post(name: .authNotification, object: isAuthenticated)
         } onTokenExpiredHandler: {result in

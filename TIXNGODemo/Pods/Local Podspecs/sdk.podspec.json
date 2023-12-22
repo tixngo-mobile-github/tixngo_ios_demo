@@ -1,6 +1,6 @@
 {
   "name": "sdk",
-  "version": "1.0.13",
+  "version": "1.0.16",
   "license": {
     "type": "BSD"
   },
@@ -11,7 +11,7 @@
   "summary": "The FanApp SDK from TIXNGO with love",
   "source": {
     "git": "https://github.com/tixngo-mobile-github/tixngo_sdk_ios.git",
-    "tag": "1.0.13"
+    "tag": "1.0.16"
   },
   "source_files": "Tixngo/*.{swift}",
   "vendored_frameworks": [

@@ -2423,266 +2423,266 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BeaconCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BeaconCentral.swift",
       "kind": "BooleanLiteral",
       "offset": 1305,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BeaconCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BeaconCentral.swift",
       "kind": "Array",
       "offset": 1352,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BeaconCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BeaconCentral.swift",
       "kind": "StringLiteral",
       "offset": 1137,
       "length": 13,
       "value": "\"beacon.BeaconCentral\""
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 28,
       "value": "\"io.tixngo.beacon.bluetooth\""
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 16,
       "value": "\"beacon.BluetoothCentral\""
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1218,
       "length": 2,
       "value": "-3"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1245,
       "length": 2,
       "value": "-2"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1273,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1299,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1323,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1218,
       "length": 1,
       "value": "-3"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1245,
       "length": 1,
       "value": "-2"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1273,
       "length": 1,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1299,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1323,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1218,
       "length": 1,
       "value": "-3"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1245,
       "length": 1,
       "value": "-2"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1273,
       "length": 1,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1299,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 1323,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2005,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2029,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2055,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2082,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2107,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2131,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2005,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2029,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2055,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2082,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2107,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2131,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2005,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2029,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2055,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2082,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2107,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-a68cb03d0ca3b302a5c404945c1177bc127df636\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
+      "filePath": "\/Users\/lemh\/.pub-cache\/git\/tyxr-mobile-modules-9c979721caca5927154cff745697274af5046f58\/modules\/beacon_kontakt\/ios\/Classes\/BluetoothCentral.swift",
       "kind": "IntegerLiteral",
       "offset": 2131,
       "length": 1,

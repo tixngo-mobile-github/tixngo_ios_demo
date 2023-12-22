@@ -53,7 +53,7 @@ PODS:
   - nanopb/decode (2.30909.1)
   - nanopb/encode (2.30909.1)
   - PromisesObjC (2.3.1)
-  - sdk (1.0.13):
+  - sdk (1.0.16):
     - KontaktSDK (~> 3.0.26)
   - SwiftRandom (1.0.0)
 
@@ -62,7 +62,7 @@ DEPENDENCIES:
   - AWSCore
   - FirebaseCore
   - FirebaseMessaging
-  - sdk (from `https://github.com/tixngo-mobile-github/tixngo_sdk_ios.git`, tag `1.0.13`)
+  - sdk (from `https://github.com/tixngo-mobile-github/tixngo_sdk_ios.git`, tag `1.0.16`)
   - SwiftRandom
 
 SPEC REPOS:
@@ -84,12 +84,12 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   sdk:
     :git: https://github.com/tixngo-mobile-github/tixngo_sdk_ios.git
-    :tag: 1.0.13
+    :tag: 1.0.16
 
 CHECKOUT OPTIONS:
   sdk:
     :git: https://github.com/tixngo-mobile-github/tixngo_sdk_ios.git
-    :tag: 1.0.13
+    :tag: 1.0.16
 
 SPEC CHECKSUMS:
   AWSCognitoIdentityProvider: 5eeb67304ea7ac853836d685f2b50c08d3194155
@@ -104,9 +104,9 @@ SPEC CHECKSUMS:
   KontaktSDK: 988dafe70f470cbacce9620a1aff310fa28129cf
   nanopb: d4d75c12cd1316f4a64e3c6963f879ecd4b5e0d5
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
-  sdk: 1a6b8c00bbaea06d322f7f9f116185a069f89b48
+  sdk: 2c5a0cc731393d53fefd80602d9520b23667bd0c
   SwiftRandom: 437275c63500ddf5a565cbd56996fb23f12cfc3d
 
-PODFILE CHECKSUM: ca493b291ff3eda73fe87a86ec9d2c1ed63c786a
+PODFILE CHECKSUM: 454493c15590de2c4c2b131ba9e1a9ffe4c504e4
 
 COCOAPODS: 1.12.1

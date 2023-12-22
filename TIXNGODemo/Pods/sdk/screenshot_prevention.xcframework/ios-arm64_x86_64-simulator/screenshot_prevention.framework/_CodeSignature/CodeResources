@@ -26,15 +26,15 @@
 		</data>
 		<key>Modules/screenshot_prevention.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		MXbfMXaQnwLqf7niizsbV+XJB+M=
+		BFfngTlYJ44jrV0CmmIGmfLJ2Ik=
 		</data>
 		<key>Modules/screenshot_prevention.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ziLVvWyokiL6ozquT+ggFQnpbmU=
+		Gb+ISXvm56exAO+GD6gl1om6Cn4=
 		</data>
 		<key>Modules/screenshot_prevention.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		r0ynqSUzVqBENhNOCwH8ge1d8sU=
+		MeXq7sFWZcH/jEghwLjaYbls4Ro=
 		</data>
 		<key>Modules/screenshot_prevention.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/screenshot_prevention.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		r0ynqSUzVqBENhNOCwH8ge1d8sU=
+		MeXq7sFWZcH/jEghwLjaYbls4Ro=
 		</data>
 		<key>Modules/screenshot_prevention.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -107,21 +107,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NYAtdxgqSw48ghYneM7UT1fM+SF/kjtZ84FUdsNlgf8=
+			fhV3A5MdwuLymSHtD2dJlGwzq0b5rPyx4X1f3sNwNIQ=
 			</data>
 		</dict>
 		<key>Modules/screenshot_prevention.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0PXisO+DY7fAb4lIXdNPkfH9daxcu1QOXLa8BvaB18g=
+			o8dSBpJt9kU1wKvlyJKyARrTzIl/ksDdRJLm8MxlUao=
 			</data>
 		</dict>
 		<key>Modules/screenshot_prevention.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			adWo/ARiaPFRylK20tnPAh+0Q3B/ABQHP3/5cUcHLuM=
+			5GFTJVGmNP5cZe7aFsozCPfLxUKFPwM/iVkMCGnOwOk=
 			</data>
 		</dict>
 		<key>Modules/screenshot_prevention.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -156,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			adWo/ARiaPFRylK20tnPAh+0Q3B/ABQHP3/5cUcHLuM=
+			5GFTJVGmNP5cZe7aFsozCPfLxUKFPwM/iVkMCGnOwOk=
 			</data>
 		</dict>
 		<key>Modules/screenshot_prevention.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

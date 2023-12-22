@@ -22,15 +22,15 @@
 		</data>
 		<key>Modules/beacon.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		1sIE9bI4jcusAbI21VRwr5bPQE8=
+		gTk0Z1k/x4/+IhlSbE4ze0+UTDQ=
 		</data>
 		<key>Modules/beacon.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		nfX+b6xxwf9BQxv5IGSKCDpZxDI=
+		3Mf227mCbZihWSH+/BTWdsJe0Ms=
 		</data>
 		<key>Modules/beacon.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		F6BHRPa8TODTzxG8ba4cnvkvT4Q=
+		6E7iuOK2RA2zceOriMzANMkr+tU=
 		</data>
 		<key>Modules/beacon.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/beacon.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		F6BHRPa8TODTzxG8ba4cnvkvT4Q=
+		6E7iuOK2RA2zceOriMzANMkr+tU=
 		</data>
 		<key>Modules/beacon.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -100,21 +100,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GHqdueGJ1BgcfhlxpWclWeRMO169ge2xGQGBM7ucCr4=
+			Wdwi6Lvm1ZXdHQ00EXadvF/6l777vS+mjoRUnnTz92s=
 			</data>
 		</dict>
 		<key>Modules/beacon.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pl/6UK2J5WXK75MBeYtBcLs/x0Hu6Mka2jD7oz1iJfI=
+			B1iPjwcaMgUlEQDryqDnXm4pXfB/qiXX45NNdx4wjJY=
 			</data>
 		</dict>
 		<key>Modules/beacon.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jVP9U7poenDGnioHHMgLiLdGQBMIHC1pAUVwS7hyBAc=
+			JMfTrKbRYxGZcETEjEh7Nj0gW0+NJ05sAKiAIs+6EVY=
 			</data>
 		</dict>
 		<key>Modules/beacon.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jVP9U7poenDGnioHHMgLiLdGQBMIHC1pAUVwS7hyBAc=
+			JMfTrKbRYxGZcETEjEh7Nj0gW0+NJ05sAKiAIs+6EVY=
 			</data>
 		</dict>
 		<key>Modules/beacon.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

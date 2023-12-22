@@ -211,7 +211,7 @@ public struct TixngoSDKConfig {
     }
     
     var json: [String: Any?] {
-        return ["displayType": displayType,
+        return ["displayType": displayType.rawValue,
                 "existSignOut": existSignout,
                 "existMenu": isHaveMenu,
                 ]
@@ -238,7 +238,8 @@ public struct TixngoConfiguration {
     let defaultLanguage: TixngoLanguages?
     let theme: TixngoTheme?
     let appId: String?
-      
+    let config: TixngoSDKConfig?
+    
     public init(licenseKey: String? = nil,
                 isEnableDebug: Bool = false,
                 defaultEnv: TixngoEnv,
@@ -247,7 +248,8 @@ public struct TixngoConfiguration {
                 supportLanguages: [TixngoLanguages] = [],
                 defaultLanguage: TixngoLanguages?,
                 theme: TixngoTheme?,
-                appId: String? = nil) {
+                appId: String? = nil,
+                config: TixngoSDKConfig?) {
         self.sskLicenseKey = licenseKey
         self.isEnableDebug = isEnableDebug
         self.defaultEnv = defaultEnv
@@ -257,6 +259,7 @@ public struct TixngoConfiguration {
         self.defaultLanguage = defaultLanguage
         self.theme = theme
         self.appId = appId
+        self.config = config ?? TixngoSDKConfig()
     }
     
     var json: [String: Any?] {
@@ -268,13 +271,15 @@ public struct TixngoConfiguration {
                 "supportLanguages": supportLanguages.map({$0.rawValue}),
                 "defaultLanguage": defaultLanguage?.rawValue,
                 "theme": theme?.json,
-                "appId": appId ?? ""
+                "appId": appId ?? "",
+                "config": config?.json
                 ]
     }
     
     static var `default`: TixngoConfiguration {
         let theme = TixngoTheme(font: "Qatar2022",
                                 colors: TixngoColor(primary: .yellow, secondary: .red))
+        let config = TixngoSDKConfig()
         return TixngoConfiguration(licenseKey: "MEYCIQDO4RS/aRJmaKnRZOaq9FOYNehpX9s4FqTdiNf6flbkcAIhANK7ToiL/EANI1vCIRchcny5SHI8cYbzz3KiyfeZf6SX",
                                    isEnableDebug: true,
                                    defaultEnv: .int,
@@ -282,7 +287,8 @@ public struct TixngoConfiguration {
                                    isCheckAppStatus: false,
                                    defaultLanguage: .en,
                                    theme: theme,
-                                   appId: "")
+                                   appId: "",
+        config: config)
     }
 }
 
